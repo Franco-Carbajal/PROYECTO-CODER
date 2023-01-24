@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grande{
+    background-color: #9A9B94;
+}
+.img{
+    margin: 30px;
+}
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.item li a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.item li a:hover{
+     color: rgb(245, 188, 247);
+}
+.item1{
+    order: 1;
+}
+.item2{
+    order: 2;
+}
+.item3{
+    order: 3;
+}
+.item4{
+    order: 4;
+}
+.item5{
+    order: 5;
+}
+.contacto{
+    text-align: center;
+    font-size: 40px;
+}
+.cuerpo-index{
+    display: grid;
+    background-color: #D4D6C8;
+}
+.cuerpo-index dt{
+text-align: center;
+margin-top: 10px;
+}
+.cuerpo-index dl{
+    text-align: center;
+    margin-top: 15px;
+}
+.cuerpo-index-img{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cuerpo-index p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cuerpo-quienessomos{
+    background-color: #D4D6C8;
+}
+.img-quienessomos{
+    display: flex;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.cuerpo-quienessomos dt{
+    text-align: center;
+}
+.cuerpo-quienessomos dl{
+    text-align: left;
+    margin: 30px;
+}
+.cuerpo-institucion{
+    background-color: #D4D6C8;
+}
+.cuerpo-institucion-img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cuerpo-institucion dl{
+    text-align: center;
+    margin: 10px 10px;
+}
+.cuerpo-institucion dt{
+    text-align: center;
+    margin-top: 10px;
+}
+.cuerpo-informe{
+    background-color: #D4D6C8;
+}
+.cuerpo-informe img{
+display: grid;
+place-items: center;
+}
+.cuerpo-informe p{
+    text-align: center;
+    margin: 10px 10px;
+}
+.cuerpo-informe-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuerpo-informe ol{
+    text-align: left;
+    margin: 10px 10px ;
+    margin-left: 30px;
+}
+.cuerpo-informe li{
+    text-decoration: none;
+}
+.calendario{
+    text-align: center;
+}
+.encuesta{
+    align-content: center;
+}
+.cuerpo-ejercicios{
+    display: grid;
+    background-color: #D4D6C8;
+    place-items: center;
+
+}
+.cuerpo-ejercicios h1{
+    text-align: center;
+    margin: 10px 10px;
+
+}
+.cuerpo-ejercicios h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cuerpo-ejercicios dl{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inframe{
+    align-content: center;
+}
+.pie-de-pagina{
+    background-color:#9A9B94;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+.lista{
+    list-style: none;
+    border:solid 2px black
+}
+.lista li{
+    border: solid 1px black;
+}
